@@ -26,14 +26,27 @@ const App = () => {
     // The callback passed into `posts.map()` performs the following logic:
     //  - if the `id` of the post matches `postId`, return a new post object containing an increased 'likes' count.
     //  - otherwise just return the post object unchanged.
+    setPosts(posts.map(activePost =>{
+      if(activePost.id === postId) {
+        return {...activePost, likes: activePost.likeCount + 1}
+      } else {
+        return {activePost}
+      }
+    }))
   };
 
   return (
     <div className="App">
       {/* Add SearchBar and Posts here to render them */}
+      <SearchBar />
+      <Posts post = {posts} likePost = {likePost} />
       {/* Check the implementation of each component, to see what props they require, if any! */}
     </div>
   );
 };
 
 export default App;
+
+
+//study useState, passing down via props
+// if it comes back undefined - trace it back to the path of data and where the data needs to travel down and up to
