@@ -57,7 +57,7 @@ const dummyData = [
     {
         id: 3,
         username: "daasitttnyc",
-        thumbnailUrl: 'https://icon2.cleanpng.com/20180320/sqe/kisspng-twitch-computer-icons-streaming-media-youtube-live-tv-twitch-icon-5ab19172461392.001176751521586546287.jpg',
+        thumbnailUrl: 'https://picsum.photos/49/50',
         imageUrl: 'https://picsum.photos/601/400/',
         likes: 867,
         timestamp: "July 15th 2017, 03:12:09 pm",
@@ -87,7 +87,7 @@ const dummyData = [
     {
         id: 4,
         username: "adventureGurl2921",
-        thumbnailUrl: 'https://icon2.cleanpng.com/20180320/sqe/kisspng-twitch-computer-icons-streaming-media-youtube-live-tv-twitch-icon-5ab19172461392.001176751521586546287.jpg',
+        thumbnailUrl: 'https://picsum.photos/50/50',
         imageUrl: 'https://picsum.photos/599/400/',
         likes: 23727,
         timestamp: "July 15th 2017, 03:12:09 pm",
@@ -117,7 +117,7 @@ const dummyData = [
     {
         id: 5,
         username: "theWonderPhotog",
-        thumbnailUrl: 'https://icon2.cleanpng.com/20180320/sqe/kisspng-twitch-computer-icons-streaming-media-youtube-live-tv-twitch-icon-5ab19172461392.001176751521586546287.jpg',
+        thumbnailUrl: 'https://picsum.photos/50/49',
         imageUrl: 'https://picsum.photos/600/400',
         likes: 9827,
         timestamp: "July 15th 2017, 03:12:09 pm",
